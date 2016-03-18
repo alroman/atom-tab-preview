@@ -3,7 +3,16 @@
   "main": "./lib/tab-preview",
   "version": "0.2.0",
   "description": "A short description of your package",
-  "keywords": [],
+  "author": "Williams Medina <williams.medinaa@gmail.com>",
+  "keywords": [
+    "atom",
+    "tab",
+    "preview",
+    "screenshot",
+    "code",
+    "screen",
+    "graphical"
+  ],
   "repository": "https://github.com/willyelm/atom-tab-preview",
   "license": "MIT",
   "engines": {

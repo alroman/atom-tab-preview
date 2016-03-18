@@ -1,5 +1,5 @@
 # tab-preview package
 
-A short description of your package.
+Add a tab code preview to the file title bar.
 
-![A screenshot of your package](https://f.cloud.github.com/assets/69169/2290250/c35d867a-a017-11e3-86be-cd7c5bf3ff9b.gif)
+![A screenshot of your package](sample.png)
