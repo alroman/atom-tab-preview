@@ -1,7 +1,7 @@
 {
   "name": "tab-preview",
   "main": "./lib/tab-preview",
-  "version": "0.3.0",
+  "version": "0.4.0",
   "description": "A short description of your package",
   "author": "Williams Medina <williams.medinaa@gmail.com>",
   "keywords": [
