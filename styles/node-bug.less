@@ -1,0 +1,94 @@
+@import "ui-variables";
+
+atom-pane{
+  .tab-bar{
+
+    height: 9rem;
+
+    .tab{
+
+      max-width: 12rem;
+      min-width: 4rem;
+      height: inherit;
+
+      &:before{
+        display: none;
+      }
+
+      .title{
+        height: 20%;
+        line-height: 1rem;
+        text-align: left;
+        &.icon-tools{
+          margin: 30% 0;
+          text-align: center;
+        }
+      }
+
+      .close-icon{
+        font-size: 1.3rem;
+        line-height: 3rem;
+        margin-right: 0.7rem;
+      }
+
+      &.active{
+        .wim-tab-flag{
+          background-color: @base-accent-color;
+        }
+        .wim-tab-preview{
+          border-color: @base-accent-color;
+        }
+      }
+
+      .wim-tab-flag{
+        border-radius: 0.2rem;
+        padding: 0.2rem 0.4rem;
+        background-color: rgba(255, 255, 255, .1);
+        margin-right: 0.2rem;
+        text-transform: uppercase;
+        font-size: 0.8rem;
+      }
+
+      .wim-tab-preview{
+        height: 68%;
+        margin: 0.5rem 1rem;
+        overflow: hidden;
+        border-radius: 0.25rem;
+        background-color: @ui-bg;
+        border: 0.2rem solid rgba(255, 255, 255, .08);
+        img{
+          width: 100%;
+        }
+      }
+
+    }
+  }
+}
+
+atom-text-editor::shadow, atom-text-editor, html{
+
+  .gutter[gutter-name=line-number] {
+
+    cursor: pointer;
+    .line-number .icon-debug{
+      position: absolute;
+      top: 0;
+      left: 50%;
+      margin-left: -0.4em;
+      &:before {
+        font-family: 'Octicons Regular';
+        font-weight: normal;
+        font-style: normal;
+        display: inline-block;
+        line-height: 1;
+        -webkit-font-smoothing: antialiased;
+        text-decoration: none;
+        font-size: 1em;
+        width: 0.8em;
+        height: 0.8em;
+        content: "\f052";
+        color: #7ed473;
+      }
+    }
+  }
+}
