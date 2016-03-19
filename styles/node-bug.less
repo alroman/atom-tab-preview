@@ -3,7 +3,7 @@
 atom-pane{
   .tab-bar{
 
-    height: 9rem;
+    height: 8rem;
 
     .tab{
 
@@ -16,13 +16,15 @@ atom-pane{
       }
 
       .title{
-        height: 20%;
+        padding: 22% 0!important;
+        text-align: center;
+      }
+
+      .title[data-name]{
+        height: 18%;
+        padding: 0!important;
         line-height: 1rem;
         text-align: left;
-        &.icon{
-          margin: 30% 0;
-          text-align: center;
-        }
       }
 
       .close-icon{
@@ -50,7 +52,7 @@ atom-pane{
       }
 
       .wim-tab-preview{
-        height: 68%;
+        height: 64%;
         margin: 0.5rem 1rem;
         overflow: hidden;
         border-radius: 0.25rem;
