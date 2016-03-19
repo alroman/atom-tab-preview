@@ -5,4 +5,13 @@
 
 Add a tab code preview to the file title bar.
 
+## Installation
+
+```bash
+apm install tab-preview
+```
+
+>  this package is
+still **under development** you may find some bugs.
+
 ![A screenshot of your package](https://raw.githubusercontent.com/willyelm/atom-tab-preview/master/sample.png)

@@ -2,7 +2,7 @@
   "name": "tab-preview",
   "main": "./lib/tab-preview",
   "version": "0.6.0",
-  "description": "A short description of your package",
+  "description": "Add small code preview with last activity status to the file title bar",
   "author": "Williams Medina <williams.medinaa@gmail.com>",
   "keywords": [
     "atom",
