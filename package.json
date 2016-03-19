@@ -1,7 +1,7 @@
 {
   "name": "tab-preview",
   "main": "./lib/tab-preview",
-  "version": "0.6.0",
+  "version": "0.7.0",
   "description": "Add small code preview with last activity status to the file title bar",
   "author": "Williams Medina <williams.medinaa@gmail.com>",
   "keywords": [
