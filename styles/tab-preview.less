@@ -1,15 +1,36 @@
+@base-accent-color: @base-border-color;
+@ui-bg: @tab-background-color;
+@wm-tab-height: 8rem;
+
 @import "ui-variables";
+
+.theme-atom-dark-ui{
+  .tab-bar .tab{
+
+    height: @wm-tab-height - 1rem !important;
+
+    &:after{
+      height: @wm-tab-height - 1rem !important;
+      transform: skewX(10deg);
+    }
+
+    .wim-tab-preview{
+      margin-right: 2rem;
+      height: @wm-tab-height - 3.6rem;
+    }
+  }
+}
 
 atom-pane{
   .tab-bar{
 
-    height: 8rem;
+    height: @wm-tab-height;
 
     .tab{
 
       max-width: 12rem;
       min-width: 4rem;
-      height: inherit;
+      height: @wm-tab-height;
 
       &:before{
         display: none;
@@ -21,10 +42,9 @@ atom-pane{
       }
 
       .title[data-name]{
-        height: 18%;
+        height: 1.5rem!important;
         padding: 0!important;
-        line-height: 1rem;
-        text-align: left;
+        line-height: 1.2rem;
       }
 
       .close-icon{
@@ -52,7 +72,7 @@ atom-pane{
       }
 
       .wim-tab-preview{
-        height: 64%;
+        height: @wm-tab-height - 3rem;
         margin: 0.5rem 1rem;
         overflow: hidden;
         border-radius: 0.25rem;
